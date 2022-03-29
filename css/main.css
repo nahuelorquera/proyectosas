@@ -37,3 +37,18 @@
 .footerProperties {
   margin-top: 100px !important;
   background-color: rgba(30, 30, 30, 0.9); }
+
+.instagramButton {
+  color: #c434c7; }
+
+.facebookButton {
+  color: #0080ff; }
+
+.wspButton {
+  color: #1ff200; }
+
+footer section div {
+  padding-left: 12px; }
+
+footer section div.social a {
+  text-decoration: none; }
