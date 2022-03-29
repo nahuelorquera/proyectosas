@@ -1,0 +1,24 @@
+
+.botonera{
+	font-family: $fontMain;
+	background-attachment: fixed !important;
+	background-image: linear-gradient( 89.9deg,  rgba(208,246,255,1) 0.1%, rgba(255,237,237,1) 47.9%, rgba(255,255,231,1) 100.2% );
+	div{
+
+	   a{
+
+	  	img{
+	  		width:$w-10;
+
+	  	}
+	  }
+	}
+}
+
+.botonesPrincipales{
+	
+	ul{
+		font-size:$textSm;
+		padding-right: 66px;
+	}
+}
