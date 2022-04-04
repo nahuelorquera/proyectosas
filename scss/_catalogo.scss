@@ -1,0 +1,114 @@
+
+
+
+main{
+	h1{
+		font-family: $fontMain;
+		padding-bottom: 30px;
+		margin-top: 55px;
+		font-size:$textMd;
+	}
+
+
+	div.container-fluid{
+
+		margin-top: 70px;
+
+		div.row{
+
+			div#text2{
+				@include margins(20px,30px,0px,150px);
+				font-family: $fontMain;
+		
+
+				div{
+					
+					
+				}
+			}
+
+			section.box2{
+				transition: transform 0.2s;
+
+
+					div.card2{
+						margin-bottom: 3rem;
+
+						&:hover{
+						@extend .card2;
+						cursor: pointer;
+						transform: scale(1.1);
+						transition: transform 0.6s;
+						border: 1px solid map-get($map:$paletColor,$key:'uno');
+	 					}
+					}
+			}
+
+			section.box3{
+				transition: transform 0.2s;
+
+
+					div.card2{
+						margin-bottom: 3rem;
+
+						&:hover{
+						@extend .card2;
+						cursor: pointer;
+						transform: scale(1.1);
+						transition: transform 0.6s;
+						border: 1px solid map-get($map:$paletColor,$key:'dos');
+	 					}
+					}
+			}
+
+			section.box4{
+				transition: transform 0.2s;
+
+
+					div.card2{
+						margin-bottom: 3rem;
+
+						&:hover{
+						@extend .card2;
+						cursor: pointer;
+						transform: scale(1.1);
+						transition: transform 0.6s;
+						border: 1px solid map-get($map:$paletColor,$key:'tres');
+	 					}
+					}
+			}
+
+			section.box5{
+				transition: transform 0.2s;
+
+
+					div.card2{
+						margin-bottom: 3rem;
+
+						&:hover{
+						@extend .card2;
+						cursor: pointer;
+						transform: scale(1.1);
+						transition: transform 0.6s;
+						border: 1px solid map-get($map:$paletColor,$key:'cuatro');
+	 					}
+					}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+.card2{
+	box-shadow: 2px 1px 10px;
+	color: black;
+				
+}

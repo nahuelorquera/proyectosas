@@ -1,0 +1,33 @@
+	main.contact{
+	@include margins(10px,170px,0px,0px);
+	
+	div.container-fluid{
+	padding-top:$p-20;
+
+		div{
+
+			div#text1{
+				display: flex;
+    			justify-content: center;
+    			align-items: center;
+    			padding-right: 100px;
+    			padding-left: 100px;
+    			font-family: $fontMain;
+    			font-size: $text-15;
+
+			}
+
+			h1{
+				font-family: $fontMain;
+			}
+
+			div#formulary{
+
+				div.d-flex{
+					justify-content: space-evenly;
+				}
+			}
+		}
+    }
+}
+

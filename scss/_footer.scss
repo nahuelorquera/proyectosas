@@ -5,17 +5,17 @@
 }
 
 .instagramButton{
-  color: rgba(196, 52, 199, 1.0);
+  color: map-get($map:$paletColor,$key:'cinco');
 }
 
 
 .facebookButton{
-  color: rgba(0, 128, 255, 1.0);
+  color: map-get($map:$paletColor,$key:'seis');
 }
 
 
 .wspButton{
-  color: rgba(31, 242, 0, 1.0);
+  color: map-get($map:$paletColor,$key:'siete');
 }
 
 

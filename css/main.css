@@ -52,3 +52,78 @@ footer section div {
 
 footer section div.social a {
   text-decoration: none; }
+
+main h1 {
+  font-family: "Sansita Swashed", cursive;
+  padding-bottom: 30px;
+  margin-top: 55px;
+  font-size: 2em; }
+
+main div.container-fluid {
+  margin-top: 70px; }
+  main div.container-fluid div.row div#text2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 150px;
+    font-family: "Sansita Swashed", cursive; }
+  main div.container-fluid div.row section.box2 {
+    transition: transform 0.2s; }
+    main div.container-fluid div.row section.box2 div.card2, main div.container-fluid div.row section.box2 div.card2:hover {
+      margin-bottom: 3rem; }
+      main div.container-fluid div.row section.box2 div.card2:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: transform 0.6s;
+        border: 1px solid #fffbe8; }
+  main div.container-fluid div.row section.box3 {
+    transition: transform 0.2s; }
+    main div.container-fluid div.row section.box3 div.card2, main div.container-fluid div.row section.box3 div.card2:hover {
+      margin-bottom: 3rem; }
+      main div.container-fluid div.row section.box3 div.card2:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: transform 0.6s;
+        border: 1px solid #ffe4f1; }
+  main div.container-fluid div.row section.box4 {
+    transition: transform 0.2s; }
+    main div.container-fluid div.row section.box4 div.card2, main div.container-fluid div.row section.box4 div.card2:hover {
+      margin-bottom: 3rem; }
+      main div.container-fluid div.row section.box4 div.card2:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: transform 0.6s;
+        border: 1px solid #f4e8ee; }
+  main div.container-fluid div.row section.box5 {
+    transition: transform 0.2s; }
+    main div.container-fluid div.row section.box5 div.card2, main div.container-fluid div.row section.box5 div.card2:hover {
+      margin-bottom: 3rem; }
+      main div.container-fluid div.row section.box5 div.card2:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: transform 0.6s;
+        border: 1px solid #d7f5fd; }
+
+.card2, main div.container-fluid div.row section.box2 div.card2:hover, main div.container-fluid div.row section.box3 div.card2:hover, main div.container-fluid div.row section.box4 div.card2:hover, main div.container-fluid div.row section.box5 div.card2:hover {
+  box-shadow: 2px 1px 10px;
+  color: black; }
+
+main.contact {
+  margin-top: 10px;
+  margin-bottom: 170px;
+  margin-left: 0px;
+  margin-right: 0px; }
+  main.contact div.container-fluid {
+    padding-top: 20px; }
+    main.contact div.container-fluid div div#text1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-right: 100px;
+      padding-left: 100px;
+      font-family: "Sansita Swashed", cursive;
+      font-size: 1.5em; }
+    main.contact div.container-fluid div h1 {
+      font-family: "Sansita Swashed", cursive; }
+    main.contact div.container-fluid div div#formulary div.d-flex {
+      justify-content: space-evenly; }

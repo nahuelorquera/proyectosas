@@ -24,3 +24,33 @@ $w-25:25%;
 $w-20:20%;
 $w-10:10%;
 
+
+// paddings
+$p-120:120px;
+$p-100:100px;
+$p-80:80px;
+$p-60:60px;
+$p-40:40px;
+$p-20:20px;
+$p-10:10px;
+
+
+// mixings
+
+@mixin margins($margin-top, $margin-bottom, $margin-left, $margin-right){
+	margin-top: $margin-top;
+	margin-bottom: $margin-bottom;
+	margin-left: $margin-left;
+	margin-right: $margin-right;
+}
+
+
+// maps
+$paletColor:(	
+	'uno' :#fffbe8,
+	'dos' :#ffe4f1,
+	'tres' :#f4e8ee,
+	'cuatro' :#d7f5fd,
+	'cinco' :#c434c7,
+	'seis' :#0080ff,
+	'siete' :#1ff200,);	
