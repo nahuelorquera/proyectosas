@@ -10,7 +10,7 @@ section.container-fluid{
 
 	div.card{
 		width: 1000px;
-		height: 600px;
+		height: 710px;
 
 		img{
 			height: 500px;
@@ -30,4 +30,32 @@ section.container-fluid{
 
 .bolded{
 	font-weight: bold;
+}
+
+
+
+@media (max-width: 1024px){
+
+	section.container-fluid{
+
+		div.card{
+			margin-top: 100px;
+		}
+	}
+}
+
+
+
+@media (max-width: 370px){
+
+	section.container-fluid{
+
+		div.card{
+			margin-top: 200px;
+			height: 830px;
+		}
+	}
+
+
+
 }

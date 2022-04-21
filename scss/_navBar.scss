@@ -8,6 +8,7 @@
 
 	   a{
 
+
 	  	img{
 	  		width:$w-10;
 
@@ -22,4 +23,26 @@
 		font-size:$textSm;
 		padding-right: 66px;
 	}
+}
+
+
+@media (max-width: 1024px){
+
+	.botonera{
+
+		div{
+			flex-wrap: wrap !important;
+			a{
+				width: 50%;
+
+				img{
+					width: $w-20;
+				}
+			}
+		}
+	}
+
+
+
+
 }
