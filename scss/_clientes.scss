@@ -1,0 +1,69 @@
+section.home{
+	
+	div.bg-img{
+		height: 100vh;
+		
+
+		div.container{
+			padding-bottom: 100px;
+			box-shadow: 0 2px 20px 0 rgba(0, 0, 0, .25), 0 3px 6px 8px rgba(0, 0, 0, 0.16) !important;
+
+			div.row{
+				margin-top: 60px;
+
+				div.col-sm-12{
+
+					div.single{
+
+						max-width: 650px;
+					    margin: 0 auto;
+					    text-align: center;
+					    position: relative;
+					    z-index: 2;
+
+						h2{
+
+							font-size: 22px;
+						    color: black;
+						    text-transform: uppercase;
+						    margin-bottom: 40px;
+						}
+
+						div.input-group{
+
+							input{
+								height: 50px;
+							    background: rgba(255, 255, 255, 0.6);
+							    border-color: transparent;
+							    border-radius: 20px 0 0 20px;
+							    &:focus{
+							    	box-shadow: none;
+	    							border-color: #243c4f;
+							    }
+
+							}
+
+							span{
+
+								button{
+									min-height: 50px;
+								    border-radius: 0 20px 20px 0;
+								    background: #243c4f;
+								    color: #fff;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+footer.footerClientes{
+	background-color: rgba(30, 30, 30, 0.9);
+	height: 74px;
+}
+
+
+

@@ -5,8 +5,10 @@
   font-family: "Sansita Swashed", cursive;
   background-attachment: fixed !important;
   background-image: linear-gradient(89.9deg, #d0f6ff 0.1%, #ffeded 47.9%, #ffffe7 100.2%); }
-  .botonera div a img {
-    width: 10%; }
+  .botonera div {
+    flex-wrap: nowrap !important; }
+    .botonera div a img {
+      width: 10%; }
 
 .botonesPrincipales ul {
   font-size: 1.1em;
@@ -68,7 +70,8 @@ main div.container-fluid {
     margin-right: 150px;
     font-family: "Sansita Swashed", cursive; }
   main div.container-fluid div.row section.box2 {
-    transition: transform 0.2s; }
+    transition: transform 0.2s;
+    margin-bottom: 13px; }
     main div.container-fluid div.row section.box2 div.card2, main div.container-fluid div.row section.box2 div.card2:hover {
       margin-bottom: 3rem; }
       main div.container-fluid div.row section.box2 div.card2:hover {
@@ -77,7 +80,8 @@ main div.container-fluid {
         transition: transform 0.6s;
         border: 1px solid #fffbe8; }
   main div.container-fluid div.row section.box3 {
-    transition: transform 0.2s; }
+    transition: transform 0.2s;
+    margin-bottom: 13px; }
     main div.container-fluid div.row section.box3 div.card2, main div.container-fluid div.row section.box3 div.card2:hover {
       margin-bottom: 3rem; }
       main div.container-fluid div.row section.box3 div.card2:hover {
@@ -86,7 +90,8 @@ main div.container-fluid {
         transition: transform 0.6s;
         border: 1px solid #ffe4f1; }
   main div.container-fluid div.row section.box4 {
-    transition: transform 0.2s; }
+    transition: transform 0.2s;
+    margin-bottom: 13px; }
     main div.container-fluid div.row section.box4 div.card2, main div.container-fluid div.row section.box4 div.card2:hover {
       margin-bottom: 3rem; }
       main div.container-fluid div.row section.box4 div.card2:hover {
@@ -95,7 +100,8 @@ main div.container-fluid {
         transition: transform 0.6s;
         border: 1px solid #f4e8ee; }
   main div.container-fluid div.row section.box5 {
-    transition: transform 0.2s; }
+    transition: transform 0.2s;
+    margin-bottom: 13px; }
     main div.container-fluid div.row section.box5 div.card2, main div.container-fluid div.row section.box5 div.card2:hover {
       margin-bottom: 3rem; }
       main div.container-fluid div.row section.box5 div.card2:hover {
@@ -107,6 +113,21 @@ main div.container-fluid {
 .card2, main div.container-fluid div.row section.box2 div.card2:hover, main div.container-fluid div.row section.box3 div.card2:hover, main div.container-fluid div.row section.box4 div.card2:hover, main div.container-fluid div.row section.box5 div.card2:hover {
   box-shadow: 2px 1px 10px;
   color: black; }
+
+section.container-fluid {
+  margin-top: -65px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  section.container-fluid div.card {
+    width: 1000px;
+    height: 600px; }
+    section.container-fluid div.card img {
+      height: 500px; }
+
+.bolded {
+  font-weight: bold; }
 
 main.contact {
   margin-top: 10px;
@@ -127,3 +148,39 @@ main.contact {
       font-family: "Sansita Swashed", cursive; }
     main.contact div.container-fluid div div#formulary div.d-flex {
       justify-content: space-evenly; }
+
+section.home div.bg-img {
+  height: 100vh; }
+  section.home div.bg-img div.container {
+    padding-bottom: 100px;
+    box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.25), 0 3px 6px 8px rgba(0, 0, 0, 0.16) !important; }
+    section.home div.bg-img div.container div.row {
+      margin-top: 60px; }
+      section.home div.bg-img div.container div.row div.col-sm-12 div.single {
+        max-width: 650px;
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        z-index: 2; }
+        section.home div.bg-img div.container div.row div.col-sm-12 div.single h2 {
+          font-size: 22px;
+          color: black;
+          text-transform: uppercase;
+          margin-bottom: 40px; }
+        section.home div.bg-img div.container div.row div.col-sm-12 div.single div.input-group input {
+          height: 50px;
+          background: rgba(255, 255, 255, 0.6);
+          border-color: transparent;
+          border-radius: 20px 0 0 20px; }
+          section.home div.bg-img div.container div.row div.col-sm-12 div.single div.input-group input:focus {
+            box-shadow: none;
+            border-color: #243c4f; }
+        section.home div.bg-img div.container div.row div.col-sm-12 div.single div.input-group span button {
+          min-height: 50px;
+          border-radius: 0 20px 20px 0;
+          background: #243c4f;
+          color: #fff; }
+
+footer.footerClientes {
+  background-color: rgba(30, 30, 30, 0.9);
+  height: 74px; }
