@@ -144,7 +144,7 @@ section.container-fluid {
 @media (max-width: 370px) {
   section.container-fluid div.card {
     margin-top: 200px;
-    height: 830px; } }
+    height: 829px; } }
 
 main.contact {
   margin-top: 10px;
